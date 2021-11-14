@@ -1,0 +1,80 @@
+.column1 ,.column2{
+
+
+    background-image:url("../images/Bitmap (7).png");
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+    float: left;
+    width: 48%;
+    position: relative;
+    padding: 0 5px;
+    height: 408px; /* Should be removed. Only for demonstration */
+    background-color: rgba(4, 11, 20, 0.71);
+
+}
+.column2{
+    height: 269px;
+}
+
+/* Clear floats after the columns */
+
+.ant-col-1{
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1px solid whitesmoke;
+    width: 49%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column1 , .column2{
+        width: 100%;
+    }
+    .ant-col-1{
+        width: 100%;
+        content: "";
+
+    }
+}
+.section-header{
+    font-family: "Playfair Display";
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: #5F6EDC;
+}
+.column1 p{
+
+    font-weight: bolder;
+    transform: rotate(-90deg)  translateX(60px) translateY(-100px);
+    color: white;
+    font-family:"Britannic Bold";
+}
+.column1>h4,h6{
+
+    color: white;
+    font-family: "Britannic Bold";
+    font-weight: 700;
+    transform: translateY(130px);
+    text-align: center;
+
+}
+
+
+.play-box{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    opacity: 0;
+}
+.column1:hover .play-box{
+
+    opacity: 0.99;
+    transition-duration: 0.47s;
+}
+.play-box:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+#footer{
+    background-image: url("../images/footerr.png");
+    background-size: cover;
+
+    height: 390px;
+    width: 100%;
+}
+.footer-logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer-menu ul li{
+  margin-top: 10px;
+    list-style: none;
+}
+
+.footer-menu ul li a{
+    color: #1b1e21;
+}
+#footer .card{
+    height: 300px;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+.bottom-footer{
+    position: relative;
+}
+.bottom-text{
+    position: absolute;
+    left: 15%;
+    top: -50px;
+    font-size: 12px;
+    color: #1d2124;
+
+}
+html{
+    scroll-behavior:smooth;
+}

@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    background-image: url("../images/slider1.jpg") ;
+    background-size: 100% 100%;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 450px; /* Should be removed. Only for demonstration */
+    position: relative;
+
+}
+
+
+.ant-col{
+    position: absolute;
+    left: 2rem;
+    top: 30%;
+
+}
+
+/* Clear floats after the columns */
+.ant-row:after {
+    content: "";
+    display: table;
+    clear: both;
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .ant-card{
+        width: 100%;
+    }
+
+}
+
+.bent{
+    /*width: 12rem;*/
+    /*height: 4rem;*/
+    color: #ffffff;
+    background-color: #ff4a5d;
+    box-sizing: border-box;
+    padding: 7px 15px;
+    border-top-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+
+}
+
+.ant-typhography{
+
+
+    font-family: "Britannic Bold";
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    width: 80%;
+    text-shadow: 2px 2px 2px grey;
+}
+.column button{
+    margin-top: 5rem;
+    border-radius: 15px;
+    width: 120px;
+
+}
+
+.column:hover{
+    /*border-bottom: 3px solid  #ff4a5d;*/
+    transition-duration: 2s;
+    opacity: 0.85;
+    transition-delay: 0.04s;
+    background-size: auto;
+    /*background-position: ;*/
+}
+.ant-card{
+
+    background-color: #fff;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+    position: relative;
+    border: 1px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    box-sizing: border-box;
+
+}
+.ant-card:hover{
+    cursor: pointer;
+}
+.ant-text b{
+    font-size: 10px;
+
+}
+.ant-text h5{
+
+    font-family: "Palatino Linotype";
+}
+
+.ant-card:hover{
+    transition-duration: 0.07s;
+    background-color: rgba(240, 241, 255, 0.42);
+}

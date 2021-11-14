@@ -1,0 +1,109 @@
+
+
+
+
+
+.top-nav{
+
+
+    /*position: relative ;*/
+    background-image: url("../images/633-[преобразованный] (3).png");
+    background-size: cover;
+    height: 214px;
+    /*background-attachment: fixed;*/
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+    z-index: 999;
+
+}
+.top a{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.line{
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    height: 1px;
+    background-color: #d3dadf;
+}
+
+@media screen and (max-width: 768px) {
+    .top-nav{
+        height: 240px;
+    }
+
+    .line{
+        top:50px
+    }
+    .navbar-collapse{
+        background-color: whitesmoke;
+    }
+
+    .top a, span>img, .input-group{
+        display: none;
+    }
+    .top p{
+        transform: translate(1rem,1.5rem );
+    }
+    /*.topnav a:not(:first-child), .dropdown .dropbtn {*/
+    /*    display: none;*/
+    /*}*/
+    /*.topnav a.icon {*/
+    /*    float: right;*/
+    /*    display: block;*/
+    /*}*/
+    select{
+        transform: translate(0, -1rem);
+    }
+
+}
+.input-group{
+    border-radius: 22px;
+    width: 30rem;
+    position: relative;
+
+}
+
+
+.input-group .btn{
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #ffbf35;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+.input-group select{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.navbar ul li a{
+    color: black !important;
+    font-size: 15px;
+    padding: 15px 20px;
+    display: block;
+    position: relative;
+
+}
+.navbar ul li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #271bf6;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    transition-duration: .5s;
+
+}
+
+.navbar ul li a:hover::after,.navbar ul li a:hover::before{
+    width: 100%;
+}
+
+
+.top-head{
+    height: 214px;
+    width: 100%;
+}

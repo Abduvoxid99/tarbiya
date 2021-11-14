@@ -1,0 +1,159 @@
+@media (max-width: 1199px) {
+    .top-nav{
+        height:260px;
+    }
+    .ant-typhography{
+        font-size: 24px;
+    }
+    .column{
+        width: 33%;
+    }
+    .educate-row-text h5, a {
+
+        font-size: 17px;
+    }
+    .column1{
+        width: 95%;
+    }
+    .parent_row h2{
+        font-size: 18px;
+    }
+
+
+}
+
+
+@media (max-width:991px){
+
+    .column{
+        width: 50%;
+    }
+    .educate-row-text h5, a {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .top-nav{
+        box-sizing: border-box;
+        height: 340px;
+
+    }
+    .top a{
+        font-size: 12px;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .column3{
+        width: 48%;
+        height: 400px;
+    }
+
+    .column4{
+        margin-top: 10px;
+        width: 49%;
+    }
+
+    .motivation-row{
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .parent_row h2{
+        font-size: 24px;
+    }
+    .parent_row .parent_card {
+        margin-top: 10px;
+    }
+    .top-head{
+        height: 300px;
+    }
+
+
+}
+
+@media (max-width:800px){
+
+    .sucsess-row .quote-box{
+        margin-bottom: 200px;
+    }
+
+.educate-img{
+    display: none;
+}
+}
+
+@media (max-width:767px){
+    .teach-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .parent_row h2{
+        font-size: 32px;
+    }
+    .bottom-footer,
+    .form-group label,
+    .tepaga
+
+    {
+        display: none;
+    }
+    .footer-row .card{
+        border: none;
+    }
+    #footer {
+
+    }
+
+
+}
+
+@media (max-width:640px){
+    .column4{
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (max-width:568px){
+    .column1 p{
+        transform: rotate(-90deg)  translateX(100px) translateY(-100px);
+    }
+    .pupils-row{
+        flex-direction: column;
+    }
+    .column3{
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (max-width:480px){
+
+    .top-nav{
+        box-sizing: border-box;
+        height: 240px;
+
+    }
+    .column4{
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (max-width:479px){
+
+}
+
+@media  (max-width: 600px) {
+    .column{
+        width: 100%;
+    }
+
+}
+@media (min-width: 1199px) {
+
+}

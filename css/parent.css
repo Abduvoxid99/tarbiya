@@ -1,0 +1,35 @@
+
+.parent_text{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #7abaff;
+}
+
+.parent-button{
+    border-radius: 20px ;
+}
+
+
+.parent_foto{
+position: relative;
+}
+.parent-icon{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+
+}
+
+.parent-icon h2{
+    transform: translateY(100px) translateX(-20px);
+    font-family: "Eras Bold ITC";
+    text-shadow: 2px 2px 2px gray;
+    font-size: 25px;
+    text-align: center;
+}
+
+.parent_card{
+    background-color: #ffb11c;
+}
